@@ -1,7 +1,7 @@
 from paquete1.modulo1 import Cliente
 
 
-print("\n*** Menú Principal - Segunda pre entrega ***\n")
+#print("\n*** Menú Principal - Segunda pre entrega ***\n")
 
 cliente1 = Cliente("nombre", "email", "edad", "telefono")
 
