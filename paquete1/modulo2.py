@@ -10,7 +10,7 @@ Original file is located at
 from ast import NotIn
 #from google.colab import drive
 #drive.mount('/drive/')
-ruta = '/drive/MyDrive/CoderHouse/Python/SegundaPreEntrega/paquete1'
+ruta = '/drive/MyDrive/CoderHouse/Python/SegundaPreEntrega/paquete1/'
 #ruta_archivo = ruta + "/diccionario.txt"
 f = open("diccionario.txt", "w+")
 #f.write("Diccionario de registros vacio\n")
@@ -41,7 +41,7 @@ def registro():
 # Función login
 def login():
     print("\n *** Login ***\n")
-    usuario = str(input("Ingrese su nombre de usuario: ")).lower()
+    usuario = str(input("Ingrese su nombre de usuario: ")).upper()
     
     if usuario in diccionario:
         contraseña = int(input("Ingrese su contraseña: "))

@@ -1,5 +1,5 @@
 from paquete1.modulo1 import Cliente
-from paquete1.modulo2 import *
+
 
 print("\n*** Menú Principal - Segunda pre entrega ***\n")
 
